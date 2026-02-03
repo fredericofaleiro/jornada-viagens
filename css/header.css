@@ -1,18 +1,25 @@
 header {
   background-color: var(--background-tertiary-color);
-  width: 100%;
-  height: 138px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
 }
 
 .logo {
   display: inline-block;
   width: 68px;
   height: 64px;
-  margin: 37px auto 37px 48px;
 }
 
 .menu{
   display: inline-block;
   width: 32px;
   height: 32px;
+  margin-top: 16px;
+}
+
+.navegação-menu {
+  display: none;
 }
